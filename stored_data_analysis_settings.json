@@ -1,0 +1,46 @@
+{
+	"skewness" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"spectral_change_1" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"novelty" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ],
+		"threshold" : 0.13
+	}
+,
+	"centroid" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"rolloff" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"sfm" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"spectral_change_2" : 	{
+		"loudness_thresholds" : [ -40.0, -35.0 ]
+	}
+,
+	"classifier" : 	{
+		"amp_thresh" : -40.0,
+		"output_thresh" : 0.7,
+		"ratio_thresh" : 0.95,
+		"file" : "Projects:/Composition/Oboe Piece/Classifiers/classify_MN_SP1_0662.json"
+	}
+,
+	"deviations" : 	{
+		"tracking_threshold" : -35.0
+	}
+,
+	"spectral_change" : 	{
+		"noise_threshold" : -50.0
+	}
+
+}
