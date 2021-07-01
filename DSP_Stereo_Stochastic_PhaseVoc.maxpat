@@ -1615,7 +1615,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 527.0, 92.0, 78.0, 22.0 ],
+													"patching_rect" : [ 488.5, 92.0, 78.0, 22.0 ],
 													"text" : "print DEBUG"
 												}
 
@@ -2880,7 +2880,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 430.5, 62.0, 113.0, 22.0 ],
+													"patching_rect" : [ 394.5, 62.0, 113.0, 22.0 ],
 													"text" : "route fragment time"
 												}
 
@@ -2943,7 +2943,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 430.5, 10.0, 30.0, 30.0 ]
+													"patching_rect" : [ 394.5, 10.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -3255,7 +3255,7 @@
 												"patchline" : 												{
 													"color" : [ 0.990415692329407, 0.500269114971161, 0.032865822315216, 1.0 ],
 													"destination" : [ "obj-1", 0 ],
-													"midpoints" : [ 487.0, 119.5, 677.5, 119.5 ],
+													"midpoints" : [ 451.0, 119.5, 677.5, 119.5 ],
 													"source" : [ "obj-5", 1 ]
 												}
 
@@ -3270,7 +3270,7 @@
 , 											{
 												"patchline" : 												{
 													"color" : [ 0.990415692329407, 0.500269114971161, 0.032865822315216, 1.0 ],
-													"destination" : [ "obj-3", 1 ],
+													"destination" : [ "obj-28", 2 ],
 													"source" : [ "obj-5", 0 ]
 												}
 

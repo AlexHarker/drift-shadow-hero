@@ -1344,8 +1344,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 223.0, 200.0, 22.0 ],
-					"text" : "fl.read~ __buf /units ms /interp none"
+					"patching_rect" : [ 31.0, 223.0, 199.0, 22.0 ],
+					"text" : "fl.read~ _void /units ms /interp none"
 				}
 
 			}
@@ -1572,7 +1572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"midpoints" : [ 391.266666666666652, 192.000000000000057, 221.5, 192.000000000000057 ],
+					"midpoints" : [ 391.266666666666652, 192.000000000000057, 220.5, 192.000000000000057 ],
 					"source" : [ "obj-57", 2 ]
 				}
 
