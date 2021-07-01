@@ -116,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 253.0, 409.0, 267.0, 178.0 ],
+						"rect" : [ 253.0, 409.0, 332.0, 150.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -151,8 +151,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 74.0, 130.0, 22.0 ],
-									"text" : "slices on 0, voice reset"
+									"patching_rect" : [ 42.0, 67.0, 256.0, 22.0 ],
+									"text" : "slices on 0, buffer __dummy, reset, voice reset"
 								}
 
 							}
@@ -164,7 +164,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 52.0, 112.0, 30.0, 30.0 ]
+									"patching_rect" : [ 42.0, 105.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -177,7 +177,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 31.0, 30.0, 30.0 ]
+									"patching_rect" : [ 42.0, 24.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -440,6 +440,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Event_Generator.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "DSP_Voice_Output.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
@@ -564,6 +571,10 @@
 			}
 , 			{
 				"name" : "valconvert.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "impulses.mxo",
 				"type" : "iLaX"
 			}
  ],
