@@ -500,8 +500,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
-					"patching_rect" : [ 102.0, 487.0, 276.0, 22.0 ],
-					"text" : "tracker 50 @frequnit 1 @ampunit 12 @maxcost 1."
+					"patching_rect" : [ 102.0, 487.0, 293.0, 22.0 ],
+					"text" : "tracker #1 50 @frequnit 1 @ampunit 12 @maxcost 1."
 				}
 
 			}
@@ -939,6 +939,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Event_Generator.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "DSP_Voice_Output.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
@@ -964,13 +971,17 @@
 				"name" : "tracker.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "impulses.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ]
 				}
 ,

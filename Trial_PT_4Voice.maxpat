@@ -829,8 +829,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 623.5, 170.5, 85.0, 22.0 ],
-					"text" : "Voice_Partials"
+					"patching_rect" : [ 623.5, 170.5, 101.0, 22.0 ],
+					"text" : "Voice_Partials 50"
 				}
 
 			}
@@ -876,8 +876,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 453.5, 170.5, 85.0, 22.0 ],
-					"text" : "Voice_Partials"
+					"patching_rect" : [ 453.5, 170.5, 101.0, 22.0 ],
+					"text" : "Voice_Partials 50"
 				}
 
 			}
@@ -957,8 +957,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 265.5, 166.0, 85.0, 22.0 ],
-					"text" : "Voice_Partials"
+					"patching_rect" : [ 265.5, 166.0, 101.0, 22.0 ],
+					"text" : "Voice_Partials 50"
 				}
 
 			}
@@ -969,8 +969,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 62.0, 166.0, 85.0, 22.0 ],
-					"text" : "Voice_Partials"
+					"patching_rect" : [ 62.0, 166.0, 101.0, 22.0 ],
+					"text" : "Voice_Partials 50"
 				}
 
 			}
@@ -1334,6 +1334,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Event_Generator.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "DSP_Voice_Output.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
@@ -1357,6 +1364,10 @@
 			}
 , 			{
 				"name" : "tracker.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "impulses.mxo",
 				"type" : "iLaX"
 			}
  ],
