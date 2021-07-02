@@ -281,11 +281,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 7,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 274.0, 287.0, 334.0, 22.0 ],
-					"text" : "dynamicdsp~ 0 6 2 1"
+					"text" : "dynamicdsp~ 0 6 3 1"
 				}
 
 			}
