@@ -941,6 +941,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "Control",
@@ -3269,6 +3270,105 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-146",
+													"linecount" : 6,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 268.0, 1041.0, 50.0, 89.0 ],
+													"text" : "pv 4 buffer Press_A_I5_M339_Static1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"format" : 6,
+													"id" : "obj-124",
+													"maxclass" : "flonum",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 826.999999999999545, 736.0, 43.0, 22.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-126",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 864.499999999999545, 776.0, 34.0, 22.0 ],
+													"text" : "*~ 1."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-128",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 811.999999999999545, 776.0, 34.0, 22.0 ],
+													"text" : "*~ 1."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-119",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 245.333340644836426, 877.666677355766296, 77.0, 22.0 ],
+													"presentation_linecount" : 2,
+													"text" : "pv time 3000"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-80",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 368.750011563301086, 787.41027969121933, 51.0, 22.0 ],
+													"text" : "pv reset"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-69",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 229.25, 992.000014305114746, 137.0, 22.0 ],
+													"text" : "Test_Cycle_Samples pv"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-64",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "clear" ],
+													"patching_rect" : [ 498.0, 576.5, 227.0, 22.0 ],
+													"text" : "Patch_Loader 4 Voice_PhaseVocoder pv"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-121",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3467,7 +3567,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 184.0, 787.41027969121933, 151.0, 60.0 ],
-													"presentation_linecount" : 4,
 													"text" : "Extend B is PT with slices (and PV set up fragmented (0-10) and time c. 1000"
 												}
 
@@ -3481,8 +3580,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ -6.833329916000366, 652.5, 50.0, 62.0 ],
-													"presentation_linecount" : 4,
-													"text" : "Extend_B_I4_M37_Static"
+													"text" : "Extend_B_I5_M36_C2"
 												}
 
 											}
@@ -3530,7 +3628,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 123.5, 614.0, 51.0, 22.0 ],
-													"presentation_linecount" : 3,
 													"text" : "C Static"
 												}
 
@@ -4045,20 +4142,8 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 69.25, 972.000028967857361, 154.0, 74.0 ],
+													"patching_rect" : [ 69.25, 972.000028967857361, 156.0, 74.0 ],
 													"text" : "Press A (all samples) could be PV fragment 50, time 3000 or more and all types OR granular with HP or BP filtering (both together"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-103",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 238.66667377948761, 873.333359360694885, 35.0, 22.0 ],
-													"text" : "reset"
 												}
 
 											}
@@ -4071,17 +4156,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 297.33334219455719, 904.000026941299438, 61.0, 22.0 ],
 													"text" : "time 3000"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-99",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 0,
-													"patching_rect" : [ 245.333340644836426, 957.333361864089966, 97.0, 22.0 ],
-													"text" : "Trial_PV_4Voice"
 												}
 
 											}
@@ -4236,7 +4310,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 550.333333333333258, 489.0, 562.0, 22.0 ],
+													"patching_rect" : [ 550.333333333333258, 435.0, 562.0, 22.0 ],
 													"text" : "gn2 interval 50 90, gn2 length 500 600, gn2 filter_switch 1, gn2 filter_reson 0.9, gn2 filter_mode lowpass"
 												}
 
@@ -4260,7 +4334,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 525.858975032965418, 462.423077404499054, 370.0, 22.0 ],
+													"patching_rect" : [ 525.858975032965418, 408.423077404499054, 370.0, 22.0 ],
 													"text" : "gn2 slices on 1, gn2 slices times 500 0.9 2.2, step 4, slices narrow 5"
 												}
 
@@ -4345,7 +4419,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 27.269232213497162, 787.41027969121933, 150.0, 100.0 ],
+													"patching_rect" : [ 27.269232213497162, 787.41027969121933, 151.0, 100.0 ],
 													"text" : "Extend A nice with granular (see startinng point) - mixing types gives more variation but it could be a parameter - should use both - too static with PT"
 												}
 
@@ -4429,7 +4503,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 490.666666666666742, 433.0, 359.0, 22.0 ],
+													"patching_rect" : [ 490.666666666666742, 379.0, 359.0, 22.0 ],
 													"text" : "gran slices on 1, gran slices times 2500 0.9 1.2, slices narrow 500"
 												}
 
@@ -4477,8 +4551,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 768.0, 628.0, 45.0, 22.0 ],
-													"text" : "open 9"
+													"patching_rect" : [ 768.0, 628.0, 52.0, 22.0 ],
+													"text" : "open 13"
 												}
 
 											}
@@ -4490,7 +4564,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 512.333333333333371, 348.0, 38.0, 38.0 ]
+													"patching_rect" : [ 512.333333333333371, 294.0, 38.0, 38.0 ]
 												}
 
 											}
@@ -4500,7 +4574,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 512.333333333333371, 399.0, 115.0, 22.0 ],
+													"patching_rect" : [ 512.333333333333371, 345.0, 115.0, 22.0 ],
 													"text" : "s __ob__REFRESH"
 												}
 
@@ -4664,29 +4738,12 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-37",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 706.0, 627.0, 50.5, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"precision" : 6
-													}
-,
-													"text" : "coll"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-38",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 813.0, 719.0, 89.0, 22.0 ],
+													"patching_rect" : [ 916.66666666666606, 722.0, 89.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
 														"precision" : 6
@@ -4727,7 +4784,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 498.0, 499.0, 31.0, 22.0 ],
+													"patching_rect" : [ 498.0, 445.0, 31.0, 22.0 ],
 													"text" : "load"
 												}
 
@@ -4737,10 +4794,10 @@
 													"id" : "obj-42",
 													"maxclass" : "newobj",
 													"numinlets" : 3,
-													"numoutlets" : 7,
-													"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-													"patching_rect" : [ 498.0, 682.0, 334.0, 22.0 ],
-													"text" : "dynamicdsp~ 0 6 3 1"
+													"numoutlets" : 9,
+													"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
+													"patching_rect" : [ 498.0, 682.0, 437.66666666666606, 22.0 ],
+													"text" : "dynamicdsp~ 0 8 3 1"
 												}
 
 											}
@@ -4751,7 +4808,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "clear" ],
-													"patching_rect" : [ 498.0, 594.0, 227.0, 22.0 ],
+													"patching_rect" : [ 498.0, 540.0, 227.0, 22.0 ],
 													"text" : "Patch_Loader 4 Voice_Partials pt 50"
 												}
 
@@ -4763,7 +4820,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "clear" ],
-													"patching_rect" : [ 498.0, 563.0, 227.0, 22.0 ],
+													"patching_rect" : [ 498.0, 509.0, 227.0, 22.0 ],
 													"text" : "Patch_Loader 4 Voice_Granular gn2"
 												}
 
@@ -4775,7 +4832,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "clear" ],
-													"patching_rect" : [ 498.0, 533.0, 227.0, 22.0 ],
+													"patching_rect" : [ 498.0, 479.0, 227.0, 22.0 ],
 													"text" : "Patch_Loader 4 Voice_Granular gran"
 												}
 
@@ -4937,13 +4994,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-99", 1 ],
-													"source" : [ "obj-101", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-100", 0 ],
 													"order" : 0,
 													"source" : [ "obj-102", 0 ]
@@ -4955,13 +5005,6 @@
 													"destination" : [ "obj-88", 0 ],
 													"order" : 1,
 													"source" : [ "obj-102", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-99", 1 ],
-													"source" : [ "obj-103", 0 ]
 												}
 
 											}
@@ -5048,6 +5091,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-42", 1 ],
+													"source" : [ "obj-119", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-2", 1 ],
 													"order" : 1,
 													"source" : [ "obj-12", 0 ]
@@ -5085,8 +5135,41 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-126", 1 ],
+													"order" : 0,
+													"source" : [ "obj-124", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-128", 1 ],
+													"order" : 1,
+													"source" : [ "obj-124", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-42", 0 ],
 													"source" : [ "obj-125", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
+													"destination" : [ "obj-24", 1 ],
+													"midpoints" : [ 873.999999999999545, 813.5, 533.5, 813.5 ],
+													"source" : [ "obj-126", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"midpoints" : [ 821.499999999999545, 819.5, 507.5, 819.5 ],
+													"source" : [ "obj-128", 0 ]
 												}
 
 											}
@@ -5368,6 +5451,20 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-126", 0 ],
+													"source" : [ "obj-42", 7 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-128", 0 ],
+													"source" : [ "obj-42", 6 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"source" : [ "obj-42", 5 ]
 												}
@@ -5411,7 +5508,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-38", 0 ],
-													"source" : [ "obj-42", 6 ]
+													"source" : [ "obj-42", 8 ]
 												}
 
 											}
@@ -5433,14 +5530,23 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-37", 0 ],
+													"destination" : [ "obj-42", 0 ],
+													"order" : 1,
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-64", 1 ],
 													"source" : [ "obj-44", 1 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-42", 0 ],
+													"destination" : [ "obj-64", 0 ],
+													"order" : 0,
 													"source" : [ "obj-44", 0 ]
 												}
 
@@ -5598,6 +5704,13 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-64", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
 													"source" : [ "obj-67", 0 ]
 												}
 
@@ -5606,6 +5719,22 @@
 												"patchline" : 												{
 													"destination" : [ "obj-42", 0 ],
 													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-146", 1 ],
+													"order" : 1,
+													"source" : [ "obj-69", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 1 ],
+													"order" : 0,
+													"source" : [ "obj-69", 0 ]
 												}
 
 											}
@@ -5682,6 +5811,13 @@
 													"destination" : [ "obj-78", 0 ],
 													"order" : 0,
 													"source" : [ "obj-79", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-80", 0 ]
 												}
 
 											}
@@ -5791,16 +5927,16 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-98", 0 ],
-													"order" : 0,
+													"destination" : [ "obj-69", 0 ],
+													"order" : 1,
 													"source" : [ "obj-96", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-99", 0 ],
-													"order" : 1,
+													"destination" : [ "obj-98", 0 ],
+													"order" : 0,
 													"source" : [ "obj-96", 0 ]
 												}
 
@@ -7015,7 +7151,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "DSP_Voice_Output.maxpat",
+				"name" : "Output_Voice.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -7141,28 +7277,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Test_Cycle_Samples.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Trial_PV_4Voice.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Trial_Phase_Vocoder.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Analysis_Spectral_Statistics.maxpat",
+				"name" : "Voice_PhaseVocoder.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -7176,7 +7291,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Test_Buffer_Slicing.maxpat",
+				"name" : "Test_Cycle_Samples.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -7529,34 +7644,6 @@
 			}
 , 			{
 				"name" : "dynamic.this~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.atan2~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.sqrt~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.log~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.framedelta~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.cartopol~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.timestddev~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.equals~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
