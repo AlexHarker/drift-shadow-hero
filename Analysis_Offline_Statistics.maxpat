@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 604.0, 479.0 ],
+						"rect" : [ 59.0, 104.0, 574.0, 457.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -97,6 +97,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 473.25, 298.0, 85.0, 22.0 ],
+									"text" : "regexp Coda.*"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
@@ -163,7 +175,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 473.25, 350.0, 22.0, 22.0 ],
+									"patching_rect" : [ 522.75, 350.0, 22.0, 22.0 ],
 									"text" : "t 0"
 								}
 
@@ -227,6 +239,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"midpoints" : [ 465.75, 293.5, 102.0, 293.5 ],
 									"source" : [ "obj-10", 2 ]
@@ -235,8 +254,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 515.75, 334.5, 102.0, 334.5 ],
+									"source" : [ "obj-11", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-10", 3 ]
+									"source" : [ "obj-11", 3 ]
 								}
 
 							}
@@ -264,7 +291,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"midpoints" : [ 482.75, 382.5, 102.0, 382.5 ],
+									"midpoints" : [ 532.25, 382.5, 102.0, 382.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
