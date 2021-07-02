@@ -181,7 +181,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.5, 659.0, 78.0, 22.0 ],
+					"patching_rect" : [ 310.5, 657.0, 78.0, 22.0 ],
 					"text" : "print DEBUG"
 				}
 
@@ -226,11 +226,11 @@
 				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 237.5, 623.0, 60.0, 22.0 ],
-					"text" : "route freq"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 237.5, 623.0, 92.0, 22.0 ],
+					"text" : "route freq noise"
 				}
 
 			}
@@ -428,6 +428,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 527.5, 521.25, 103.0, 22.0 ],
 					"text" : "route global voice"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 274.0, 702.0, 91.0, 22.0 ],
+					"text" : "Gesture_Signal"
 				}
 
 			}
@@ -634,11 +646,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 99.5, 745.0, 368.0, 22.0 ],
-					"text" : "poly~ DSP_Sine_Voice 50"
+					"text" : "poly~ DSP_Noisy_Sine_Voice 50"
 				}
 
 			}
@@ -671,6 +683,13 @@
 					"destination" : [ "obj-29", 0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -857,7 +876,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 2 ],
 					"midpoints" : [ 706.34375, 734.0, 458.0, 734.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -881,7 +900,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 2 ],
 					"midpoints" : [ 642.5, 734.0, 458.0, 734.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -918,7 +937,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 2 ],
 					"midpoints" : [ 621.0, 735.5, 458.0, 735.5 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -942,6 +961,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-44", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-44", 1 ]
 				}
 
@@ -1006,10 +1032,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "DSP_Amp_Pan.gendsp",
+				"name" : "DSP_Stereo_Noisy_Sine.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
-				"type" : "gDSP",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1017,6 +1043,13 @@
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gesture_Signal.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1063,13 +1096,6 @@
 			}
 , 			{
 				"name" : "Event_Generator.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Signal.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1174,8 +1200,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
