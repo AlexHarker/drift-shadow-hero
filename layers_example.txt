@@ -1,0 +1,6 @@
+1, 4 label1 Voice_Type Args;
+2, 4 label2 Voice_Type Args;
+3, 4 label3 Voice_Type Args;
+4, 4 label4 Voice_Type Args;
+5, 4 label5 Voice_Type Args;
+6, 4 label6 Voice_Type Args;

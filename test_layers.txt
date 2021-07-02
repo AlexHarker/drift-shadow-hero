@@ -1,0 +1,6 @@
+1, 4 label1 Voice_Granular;
+2, 4 label2 Voice_Granular;
+3, 4 label3 Voice_Granular;
+4, 4 label4 Voice_PhaseVocoder;
+5, 4 label5 Voice_Partials 20;
+6, 4 label6 Voice_Partials 20;
