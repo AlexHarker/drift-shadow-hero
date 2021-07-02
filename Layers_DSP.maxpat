@@ -81,8 +81,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "clear", "" ],
-					"patching_rect" : [ 142.0, 67.0, 105.0, 22.0 ],
-					"text" : "Layers_Loader #1"
+					"patching_rect" : [ 142.0, 67.0, 99.0, 22.0 ],
+					"text" : "Layer_Loader #1"
 				}
 
 			}
@@ -628,7 +628,7 @@
 				"patchline" : 				{
 					"color" : [ 0.990415692329407, 0.500269114971161, 0.032865822315216, 1.0 ],
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 237.5, 95.5, 1005.5, 95.5 ],
+					"midpoints" : [ 231.5, 95.5, 1005.5, 95.5 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -700,7 +700,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Layers_Loader.maxpat",
+				"name" : "Layer_Loader.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
