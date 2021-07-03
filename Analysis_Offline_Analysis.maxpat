@@ -469,7 +469,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.799999000000014, 272.0, 57.0, 20.0 ],
+					"patching_rect" : [ 73.799999000000014, 272.0, 57.0, 20.0 ],
 					"text" : "FFT Size"
 				}
 
@@ -510,7 +510,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.200000999999986, 272.131753026973797, 129.0, 20.0 ],
+					"patching_rect" : [ 281.200000999999986, 272.131753026973797, 129.0, 20.0 ],
 					"text" : "FFT Size / Num Peaks"
 				}
 
@@ -521,7 +521,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 494.0, 272.131753026973797, 172.0, 20.0 ],
+					"patching_rect" : [ 502.0, 272.131753026973797, 172.0, 20.0 ],
 					"text" : "dB difference / min length (ms)"
 				}
 
