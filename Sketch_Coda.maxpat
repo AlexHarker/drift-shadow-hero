@@ -4182,7 +4182,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 307.5, 1033.0, 781.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"text" : "pv1 slices on 1, pv1 slices length 5 7, pv1 slices times1 700 0.3 1.4, pv1 slices times2 2000 0.9 1.4, slices step 3, pv1 slicefade off, pv1 time 1200"
 												}
 
@@ -4304,7 +4303,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1099.25, 937.0, 692.0, 35.0 ],
-													"presentation_linecount" : 2,
 													"text" : "gn3 slices on 1, gn3 slices narrow 5, gn3 slices times 7000 0.3 1.3, gn3 filter_switch 1, gn3 filter_mode bandpass, gn3 filter_freq 400 14000, gn3 filter_reson 0.8, gn3 interval 20 50"
 												}
 
@@ -4312,13 +4310,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-114",
-													"linecount" : 3,
+													"linecount" : 6,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 957.5, 22.0, 150.0, 47.0 ],
-													"presentation_linecount" : 3,
-													"text" : "Coda D is statics on granulation and B / C on pt very noisy with slicing"
+													"patching_rect" : [ 957.5, 22.0, 150.0, 87.0 ],
+													"text" : "Coda D is statics on granulation and B / C on pt very noisy with slicing\n\n(can use recording ones also)"
 												}
 
 											}
@@ -5650,11 +5647,11 @@
 												"box" : 												{
 													"id" : "obj-7",
 													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 1074.0, 3.0, 178.0, 22.0 ],
-													"text" : "Structure_Local_Samples Coda"
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "bang" ],
+													"patching_rect" : [ 1119.0, 10.0, 195.0, 22.0 ],
+													"text" : "Structure_Match_Subsection Coda"
 												}
 
 											}
@@ -5665,7 +5662,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 1229.0, 164.0, 206.0, 22.0 ],
+													"patching_rect" : [ 1984.0, 54.5, 206.0, 22.0 ],
 													"text" : "Structure_Match_Subsection Coda E"
 												}
 
@@ -5677,7 +5674,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 1229.0, 133.0, 207.0, 22.0 ],
+													"patching_rect" : [ 1772.0, 54.5, 207.0, 22.0 ],
 													"text" : "Structure_Match_Subsection Coda D"
 												}
 
@@ -5689,7 +5686,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 1229.0, 98.0, 207.0, 22.0 ],
+													"patching_rect" : [ 1550.0, 54.5, 207.0, 22.0 ],
 													"text" : "Structure_Match_Subsection Coda C"
 												}
 
@@ -5701,7 +5698,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 1229.0, 66.0, 206.0, 22.0 ],
+													"patching_rect" : [ 1333.0, 54.5, 206.0, 22.0 ],
 													"text" : "Structure_Match_Subsection Coda B"
 												}
 
@@ -5713,7 +5710,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 1229.0, 35.0, 205.0, 22.0 ],
+													"patching_rect" : [ 1119.0, 54.5, 205.0, 22.0 ],
 													"text" : "Structure_Match_Subsection Coda A"
 												}
 
@@ -8358,111 +8355,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Patch_Manage.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_NoisyPartials.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine_Voice.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Noisy_Sine.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_NControl.gendsp",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine_XFade.gendsp",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Amp_Pan.gendsp",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Partials_Thin.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Slices_Navigation.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Random_List_Walk.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_Partials.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Sine_Voice.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_PhaseVocoder.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Stochastic_PhaseVoc.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Output_Layer.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
@@ -8892,66 +8784,6 @@
 			}
 , 			{
 				"name" : "dynamicdsp~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamic.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamic.this~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.store~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.recall~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.prioritise~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.gaussian~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.unpack~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.timer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.clip~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.min~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.ifft~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.lookup~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.uniform~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.audiotrigger~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.audiotrigger~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
