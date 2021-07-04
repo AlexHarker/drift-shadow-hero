@@ -888,6 +888,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "Control",
@@ -2638,7 +2639,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 124.0, 180.0, 1031.0, 716.0 ],
+										"rect" : [ 363.0, 193.0, 1031.0, 716.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2767,8 +2768,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 915.0, 328.0, 302.0, 22.0 ],
-													"text" : "voice volume gesture $1 $2, voice volume gesture start"
+													"patching_rect" : [ 915.0, 328.0, 155.0, 22.0 ],
+													"text" : "voice volume gesture $1 $2"
 												}
 
 											}
@@ -2850,8 +2851,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 119.0, 606.0, 242.0, 22.0 ],
-													"text" : "pt1 pan gesture $1 $2, pt1 pan gesture start"
+													"patching_rect" : [ 119.0, 606.0, 125.0, 22.0 ],
+													"text" : "pt1 pan gesture $1 $2"
 												}
 
 											}
@@ -2923,8 +2924,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 160.0, 517.0, 259.0, 22.0 ],
-													"text" : "pt1 noise gesture $1 $2, pt1 noise gesture start"
+													"patching_rect" : [ 160.0, 517.0, 134.0, 22.0 ],
+													"text" : "pt1 noise gesture $1 $2"
 												}
 
 											}
@@ -3041,7 +3042,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 770.0, 571.0, 50.0, 76.0 ],
-													"text" : "ClusterOne_Singles_I1_M166_A1"
+													"text" : "ClusterOne_Singles_I4_M352_E"
 												}
 
 											}
