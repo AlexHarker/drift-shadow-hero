@@ -1,4 +1,2 @@
 1, 4 gn1 Voice_Granular;
-2, 4 gn2 Voice_Granular;
-3, 4 pt1 Voice_NoisyPartials 50;
-4, 4 pv1 Voice_PhaseVocoder;
+2, 4 pt1 Voice_NoisyPartials 50;
