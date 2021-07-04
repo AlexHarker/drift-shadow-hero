@@ -2035,7 +2035,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 371.0, 176.0, 1209.0, 692.0 ],
+										"rect" : [ 371.0, 176.0, 808.0, 692.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2064,6 +2064,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 350.0, 222.0, 29.5, 22.0 ],
+													"text" : "A"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-18",
 													"maxclass" : "toggle",
@@ -2123,6 +2135,7 @@
 											}
 , 											{
 												"box" : 												{
+													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 													"id" : "obj-128",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -2834,6 +2847,7 @@
 											}
 , 											{
 												"box" : 												{
+													"color" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
 													"id" : "obj-118",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -3011,6 +3025,7 @@
 											}
 , 											{
 												"box" : 												{
+													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 													"id" : "obj-89",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -3023,6 +3038,7 @@
 											}
 , 											{
 												"box" : 												{
+													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 													"id" : "obj-88",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -3035,6 +3051,7 @@
 											}
 , 											{
 												"box" : 												{
+													"color" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
 													"id" : "obj-87",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -3121,7 +3138,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 24.5, 577.0, 86.0, 22.0 ],
+													"patching_rect" : [ 752.5, 215.0, 86.0, 22.0 ],
 													"text" : "prepend slices"
 												}
 
@@ -3133,7 +3150,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 10.5, 529.0, 365.0, 22.0 ],
+													"patching_rect" : [ 738.5, 167.0, 365.0, 22.0 ],
 													"text" : "on 1, length 8 15, times1 1000 0.4 1.2, times2 3000 0.9 2, narrow 5"
 												}
 
@@ -3220,7 +3237,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 70.0, 416.0, 151.0, 35.0 ],
-													"text" : "ClusterTwo_A_I5_M12a_Static"
+													"text" : "ClusterTwo_A_I4_M10_Static"
 												}
 
 											}
@@ -3413,6 +3430,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-88", 0 ],
 													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 1 ],
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -3683,7 +3707,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-49",
@@ -7266,55 +7289,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Output_Layer.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Layer_Loader.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers3_clusterone.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Layers_Proxy.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Test_Cycle_Samples.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Choose_Item.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Choose_Match.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Patch_Manage.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
@@ -7386,6 +7360,55 @@
 			}
 , 			{
 				"name" : "Random_List_Walk.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Output_Layer.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Layer_Loader.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "layers3_clusterone.txt",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Layers_Proxy.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Test_Cycle_Samples.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Choose_Item.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Choose_Match.maxpat",
 				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
