@@ -1,0 +1,45 @@
+{
+	"interval" : [ 20, 50 ],
+	"length" : [ 300, 400 ],
+	"window_settings" : [ "window", "hann" ],
+	"volume" : [ -15, 5 ],
+	"filter_switch" : 1,
+	"filter_freq" : [ 400, 3000 ],
+	"filter_reson" : 0.54,
+	"filter_mode" : "highpass",
+	"slices" : 	{
+		"on" : 1,
+		"length" : [ 2, 6 ],
+		"times1" : [ 400, 0.5, 1.2 ],
+		"times2" : [ 1500, 0.5, 3 ],
+		"step" : 2,
+		"crossfade" : [ 0.7, 0.9 ],
+		"narrow" : 400
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "gesture", 			{
+				"mode" : "change",
+				"start" : "0-9",
+				"scaling" : [ "scale", 0, 1.0 ],
+				"items" : 				{
+					"item_0" : 					{
+						"repeats" : [ 4, 5 ],
+						"time" : [ 1800, 0.99, 0.8 ],
+						"gesture" : [ "line", "last", "0-9", 0, 0.0, 1.0 ]
+					}
+,
+					"item_1" : 					{
+						"time" : [ 500, 0.9, 0.8 ],
+						"gesture" : [ "flat", "last" ]
+					}
+
+				}
+
+			}
+ ]
+	}
+
+}
