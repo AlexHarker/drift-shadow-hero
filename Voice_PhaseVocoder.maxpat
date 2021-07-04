@@ -217,8 +217,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 74.0, 417.0, 22.0 ],
-									"text" : "reset, slices on 0, voice reset, time 500, slicefade 1., fragment 0.5 0.5 0.5 0.5"
+									"patching_rect" : [ 52.0, 74.0, 353.0, 22.0 ],
+									"text" : "reset, slices on 0, voice reset, time 500,, fragment 0.5 0.5 0.5 0.5"
 								}
 
 							}

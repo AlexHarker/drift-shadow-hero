@@ -1,0 +1,25 @@
+{
+	"interval" : [ 150, 350 ],
+	"length" : [ 800, 1000 ],
+	"window_settings" : [ "window", "hann" ],
+	"volume" : [ -5, 0 ],
+	"filter_switch" : 1,
+	"filter_freq" : [ 800, 6000 ],
+	"filter_reson" : 0.3,
+	"filter_mode" : "highpass",
+	"slices" : 	{
+		"on" : 1,
+		"times" : [ 2100, 1, 3 ],
+		"length" : [ 1, 1 ],
+		"step" : 3,
+		"crossfade" : [ 0.7, 0.9 ],
+		"narrow" : 4
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
