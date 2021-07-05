@@ -1,0 +1,26 @@
+{
+	"interval" : [ 80, 190 ],
+	"length" : [ 400, 700 ],
+	"window_settings" : [ "window", "sine" ],
+	"volume" : [ -22, -10 ],
+	"filter_switch" : 0,
+	"filter_freq" : [ 1000, 12000 ],
+	"filter_reson" : 0.54,
+	"filter_mode" : "lowpass",
+	"slices" : 	{
+		"on" : 1,
+		"times1" : [ 1000, 0.9, 1.2 ],
+		"times2" : [ 4000, 0.99, 1.3 ],
+		"length" : [ 4, 5 ],
+		"step" : 5,
+		"crossfade" : [ 0.7, 0.9 ],
+		"narrow" : 1
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
