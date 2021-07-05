@@ -1,0 +1,19 @@
+{
+	"fragment" : [ 0.5, 0.5, 0.5, 0.5 ],
+	"time" : 720,
+	"slices" : 	{
+		"on" : 1,
+		"times1" : [ 400, 0.5, 1.2 ],
+		"times2" : [ 2200, 0.9, 2.0 ],
+		"length" : [ 2, 5 ],
+		"step" : 3,
+		"crossfade" : [ 0.14, 0.18 ]
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
