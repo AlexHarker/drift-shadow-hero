@@ -8,18 +8,18 @@
 	"filter_reson" : 0.54,
 	"filter_mode" : "lowpass",
 	"slices" : 	{
-		"on" : 0,
-		"times" : [ 100, 1, 1 ],
+		"on" : 1,
+		"times" : [ 2000, 0.2, 1.5 ],
 		"length" : [ 1, 1 ],
-		"step" : 3,
+		"step" : 1,
 		"crossfade" : [ 0.7, 0.9 ],
-		"narrow" : 0
+		"narrow" : 50
 	}
 ,
 	"voice" : 	{
 		"volume" : [ "set", 1.0 ],
 		"width" : [ "set", 0.8 ],
-		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+		"pan" : [ "set", "random", "scale", 0.35, 0.55 ]
 	}
 
 }

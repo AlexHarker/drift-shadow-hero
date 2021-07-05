@@ -1,19 +1,19 @@
 {
-	"interval" : [ 2, 20 ],
+	"interval" : [ 10, 50 ],
 	"length" : [ 200, 600 ],
 	"window_settings" : [ "window", "hann" ],
-	"volume" : [ -10, 0 ],
+	"volume" : [ -14, -4 ],
 	"filter_switch" : 0,
 	"filter_freq" : [ 1000, 12000 ],
 	"filter_reson" : 0.54,
 	"filter_mode" : "lowpass",
 	"slices" : 	{
-		"on" : 0,
-		"times" : [ 100, 1, 1 ],
+		"on" : 1,
+		"times" : [ 2000, 0.3, 1.2 ],
 		"length" : [ 1, 1 ],
 		"step" : 3,
 		"crossfade" : [ 0.7, 0.9 ],
-		"narrow" : 0
+		"narrow" : 5
 	}
 ,
 	"voice" : 	{

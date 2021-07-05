@@ -2,7 +2,7 @@
 	"interval" : [ 2, 20 ],
 	"length" : [ 200, 600 ],
 	"window_settings" : [ "window", "sine" ],
-	"volume" : [ -10, 0 ],
+	"volume" : [ -15, -5 ],
 	"filter_switch" : 0,
 	"filter_freq" : [ 1000, 12000 ],
 	"filter_reson" : 0.54,
@@ -19,7 +19,7 @@
 	"voice" : 	{
 		"volume" : [ "set", 1.0 ],
 		"width" : [ "set", 0.8 ],
-		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+		"pan" : [ "set", "random", "scale", 0.35, 0.55 ]
 	}
 
 }
