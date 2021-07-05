@@ -1,0 +1,28 @@
+{
+	"thin" : "amp_random 5 15",
+	"frames" : 0,
+	"crossfade" : [ "time", 2000 ],
+	"global" : 	{
+		"freq" : [ "set", 1 ],
+		"noise" : [ "set", 0.45 ]
+	}
+,
+	"freq" : [ "set", 1 ],
+	"noise" : [ "set", 0 ],
+	"volume" : [ "set", 1 ],
+	"pan" : [ "set", "random", "scale", 0.2, 0.8 ],
+	"slices" : 	{
+		"on" : 1,
+		"times" : [ 2000, 0.3, 1.2 ],
+		"length" : [ 1, 1 ],
+		"step" : 3,
+		"crossfade" : [ 0.7, 0.9 ]
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
