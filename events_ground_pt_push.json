@@ -7,7 +7,7 @@
 	}
 ,
 	"freq" : [ "set", 1 ],
-	"volume" : [ "gestures", 		{
+	"volume" : [ "gesture", 		{
 			"mode" : "loop",
 			"scaling" : [ "amp", -20, 0 ],
 			"start" : "7-8",
