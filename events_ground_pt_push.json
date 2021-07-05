@@ -1,0 +1,44 @@
+{
+	"thin" : "off",
+	"frames" : 0,
+	"crossfade" : [ "time", 900 ],
+	"global" : 	{
+		"freq" : [ "set", 1 ]
+	}
+,
+	"freq" : [ "set", 1 ],
+	"volume" : [ "gestures", 		{
+			"mode" : "loop",
+			"scaling" : [ "amp", -20, 0 ],
+			"start" : "7-8",
+			"items" : 			{
+				"item_0" : 				{
+					"time" : [ 3540, 0.8, 0.8 ],
+					"gesture" : [ "flat", "last" ]
+				}
+,
+				"item_1" : 				{
+					"time" : [ 1240, 0.8, 0.8 ],
+					"gesture" : [ "triangle", "5-9", "last", "8-10", "0-6", 0, "2-3", "5-6", 0, "2-3", "5-6" ]
+				}
+
+			}
+
+		}
+ ],
+	"pan" : [ "set", "random", "scale", 0.2, 0.8 ],
+	"slices" : 	{
+		"on" : 1,
+		"times" : [ 3000, 0.9, 1.2 ],
+		"length" : [ 1, 1 ],
+		"step" : 9,
+		"crossfade" : [ 0.7, 0.9 ]
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
