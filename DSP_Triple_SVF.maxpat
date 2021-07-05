@@ -58,7 +58,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 301.826537666079446, 77.0, 104.0, 22.0 ],
-					"text" : "svf~ 100 #¡"
+					"text" : "svf~ 100 #1"
 				}
 
 			}
@@ -102,11 +102,11 @@
 				"box" : 				{
 					"comment" : "(signal) In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.0, 17.0, 30.0, 30.0 ]
 				}
 
@@ -115,11 +115,11 @@
 				"box" : 				{
 					"comment" : "(signal) Frequency 2",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 17.0, 30.0, 30.0 ]
 				}
 
@@ -128,11 +128,11 @@
 				"box" : 				{
 					"comment" : "(signal) Frequency 2",
 					"id" : "obj-3",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.413268833039751, 17.0, 30.0, 30.0 ]
 				}
 
@@ -141,11 +141,11 @@
 				"box" : 				{
 					"comment" : "(signal) Frequency 3",
 					"id" : "obj-4",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.326537666079446, 17.0, 30.0, 30.0 ]
 				}
 
@@ -154,7 +154,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -251,7 +251,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

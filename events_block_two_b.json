@@ -1,0 +1,25 @@
+{
+	"interval" : [ 40, 90 ],
+	"length" : [ 300, 1200 ],
+	"window_settings" : [ "window", "sine" ],
+	"volume" : [ -8, 2 ],
+	"filter_switch" : 1,
+	"filter_freq" : [ 500, 8000 ],
+	"filter_reson" : 0.64,
+	"filter_mode" : "bandpass",
+	"slices" : 	{
+		"on" : 0,
+		"times" : [ 1950, 1, 3 ],
+		"length" : [ 1, 1 ],
+		"step" : 4,
+		"crossfade" : [ 0.7, 0.9 ],
+		"narrow" : 1000
+	}
+,
+	"voice" : 	{
+		"volume" : [ "set", 1.0 ],
+		"width" : [ "set", 0.8 ],
+		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
+	}
+
+}
