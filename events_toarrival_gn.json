@@ -2,7 +2,7 @@
 	"interval" : [ 80, 120 ],
 	"length" : [ 800, 900 ],
 	"window_settings" : [ "window", "sine" ],
-	"volume" : [ -20, -10 ],
+	"volume" : [ -15, -5 ],
 	"filter_switch" : 0,
 	"filter_freq" : [ 1000, 12000 ],
 	"filter_reson" : 0.54,
