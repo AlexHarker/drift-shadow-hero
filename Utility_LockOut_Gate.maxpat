@@ -168,7 +168,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 118.0, 156.0, 117.0, 22.0 ],
-					"text" : "Utility_Lockout 1000"
+					"text" : "Utility_Lockout #1"
 				}
 
 			}
