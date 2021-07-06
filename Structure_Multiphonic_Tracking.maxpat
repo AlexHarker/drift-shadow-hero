@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "Predicted Position",
+					"id" : "obj-1",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.16666699999999, 328.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-139",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1696,7 +1708,7 @@
 				"box" : 				{
 					"comment" : "Multiphonic",
 					"id" : "obj-144",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1709,7 +1721,7 @@
 				"box" : 				{
 					"comment" : "Force Position (Section / Subsection / Item)",
 					"id" : "obj-145",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1722,7 +1734,7 @@
 				"box" : 				{
 					"comment" : "Section / Subsection / Item",
 					"id" : "obj-146",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1766,9 +1778,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-					"destination" : [ "obj-104", 0 ],
-					"midpoints" : [ 50.66666699999999, 320.5, 343.58333366666659, 320.5, 343.58333366666659, 78.5, 219.66666699999999, 78.5 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-139", 0 ]
 				}
 
@@ -1846,16 +1856,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "Utility_Multiple_Match.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
