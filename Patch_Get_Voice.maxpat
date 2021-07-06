@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 280.0, 162.0, 464.0, 606.0 ],
+		"rect" : [ 280.0, 162.0, 471.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,37 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 96.5, 508.0, 29.5, 22.0 ],
-					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "Result (-1 if not found)",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.5, 545.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 96.5, 476.0, 32.0, 22.0 ],
-					"text" : "+ #2"
+					"patching_rect" : [ 40.5, 438.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -78,11 +54,11 @@
 				"box" : 				{
 					"comment" : "(bang) Get Voice",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 130.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -91,7 +67,7 @@
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 310.25, 379.0, 130.0, 22.0 ],
@@ -163,23 +139,11 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.25, 379.0, 130.0, 22.0 ],
 					"text" : "Random_List_Element"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.5, 439.0, 75.0, 22.0 ],
-					"text" : "routepass -1"
 				}
 
 			}
@@ -322,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 58.0, 175.0, 22.0 ],
+					"patching_rect" : [ 130.0, 58.0, 183.0, 22.0 ],
 					"text" : "Patch_Busy_Map #1 #2 #3"
 				}
 
@@ -391,28 +355,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 106.0, 537.0, 50.0, 537.0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 183.75, 419.5, 50.0, 419.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -420,7 +362,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"midpoints" : [ 319.75, 419.5, 50.0, 419.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -501,13 +443,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 90.5, 234.5, 71.5, 234.5 ],
 					"source" : [ "obj-3", 1 ]
@@ -530,7 +465,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -563,23 +498,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "Patch_Busy_Map.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Random_List_Element.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
