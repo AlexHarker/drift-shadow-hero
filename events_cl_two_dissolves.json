@@ -40,11 +40,11 @@
 	"voice" : 	{
 		"volume" : [ "gesture", 			{
 				"mode" : "once",
-				"scaling" : [ "amp", -41, 8 ],
+				"scaling" : [ "amp", -41, -4 ],
 				"items" : 				{
 					"item_0" : 					{
 						"time" : [ 4000, 0.9, 2 ],
-						"gesture" : [ "line", 9, 0.0, 2, 0.6, 2 ]
+						"gesture" : [ "line", "9-10", 0.0, 2, 0.6, 2 ]
 					}
 
 				}
