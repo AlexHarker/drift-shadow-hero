@@ -7,7 +7,25 @@
 	}
 ,
 	"freq" : [ "set", 1 ],
-	"volume" : [ "set", 1 ],
+	"volume" : [ "gesture", 		{
+			"mode" : "loop",
+			"scaling" : [ "amp", -20, 4 ],
+			"start" : "7-8",
+			"items" : 			{
+				"item_0" : 				{
+					"time" : [ 4840, 0.8, 0.8 ],
+					"gesture" : [ "flat", "last" ]
+				}
+,
+				"item_1" : 				{
+					"time" : [ 1240, 0.8, 0.8 ],
+					"gesture" : [ "triangle", "5-9", "last", "8-10", "0-6", 0, "2-3", "5-6", 0, "2-3", "5-6" ]
+				}
+
+			}
+
+		}
+ ],
 	"pan" : [ "set", "random", "scale", 0.2, 0.8 ],
 	"slices" : 	{
 		"on" : 0,

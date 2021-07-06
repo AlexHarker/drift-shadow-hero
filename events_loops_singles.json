@@ -1,8 +1,8 @@
 {
-	"interval" : [ 2, 20 ],
+	"interval" : [ 5, 20 ],
 	"length" : [ 200, 600 ],
 	"window_settings" : [ "window", "sine" ],
-	"volume" : [ -10, 0 ],
+	"volume" : [ -19, -9 ],
 	"filter_switch" : 0,
 	"filter_freq" : [ 1000, 12000 ],
 	"filter_reson" : 0.54,

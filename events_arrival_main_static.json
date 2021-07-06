@@ -1,5 +1,5 @@
 {
-	"interval" : [ 2, 20 ],
+	"interval" : [ 5, 20 ],
 	"length" : [ 200, 600 ],
 	"window_settings" : [ "window", "hann" ],
 	"volume" : [ -35, -10 ],

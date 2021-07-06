@@ -28,7 +28,7 @@
 
 		}
  ],
-	"volume" : [ "set", "random", "amp", -12, -8 ],
+	"volume" : [ "set", "random", "amp", -8, -4 ],
 	"pan" : [ "gesture", 		{
 			"mode" : "change",
 			"start" : "0-10",
