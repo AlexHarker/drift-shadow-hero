@@ -18,7 +18,23 @@
 	}
 ,
 	"voice" : 	{
-		"volume" : [ "set", 1.0 ],
+		"volume" : [ "gesture", 			{
+				"mode" : "once",
+				"scaling" : [ "amp", -41, 0 ],
+				"items" : 				{
+					"item_0" : 					{
+						"time" : [ 2000, 0.9, 2 ],
+						"gesture" : [ "flat", 10 ]
+					},
+					"item_1" : 					{
+						"time" : [ 4000, 0.9, 2 ],
+						"gesture" : [ "line", "last", 0.0, 2, 0.6, 2 ]
+					}
+
+				}
+
+			}
+ ],		
 		"width" : [ "set", 0.8 ],
 		"pan" : [ "gesture", 			{
 				"mode" : "change",
