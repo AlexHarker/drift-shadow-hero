@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 108.40498439470926, 53.0, 22.0 ],
+					"patching_rect" : [ 218.0, 108.40498439470926, 71.0, 22.0 ],
 					"text" : "route #1"
 				}
 
