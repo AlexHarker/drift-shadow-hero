@@ -42,5 +42,9 @@
 	"spectral_change" : 	{
 		"noise_threshold" : -50.0
 	}
+,
+	"tracking" : 	{
+		"lockout" : 2000.0
+	}
 
 }
