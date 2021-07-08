@@ -216,7 +216,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "bang" ],
+					"outlettype" : [ "signal", "signal", "ending" ],
 					"patching_rect" : [ 99.5, 783.5, 397.0, 22.0 ],
 					"text" : "Output_Voice"
 				}
@@ -755,7 +755,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 2 ],
-					"midpoints" : [ 297.5, 333.5, 183.5, 333.5 ],
+					"midpoints" : [ 297.5, 316.5, 183.5, 316.5 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -1105,6 +1105,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "shaping.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gesture_maker.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "tracker.mxo",
 				"type" : "iLaX"
 			}
@@ -1117,9 +1125,9 @@
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
+					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1137,7 +1145,6 @@
 , 			{
 				"name" : "max6message",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -1147,7 +1154,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "max6box",
@@ -1174,8 +1182,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
