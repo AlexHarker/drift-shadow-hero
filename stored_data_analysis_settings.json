@@ -44,7 +44,7 @@
 	}
 ,
 	"tracking" : 	{
-		"lockout" : 2000.0
+		"lockout" : 0.0
 	}
 
 }
