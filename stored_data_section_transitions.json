@@ -15,5 +15,7 @@
 	"Press" : [ "Centre", "Loops", "BlockOne", "BlockTwo", "Division" ],
 	"Push" : [ "Origin", "Displace", "ClusterOne", "ClusterTwo", "Division" ],
 	"ToArrival" : [ "Arrival" ],
-	"Transition" : [ "Coda" ]
+	"Transition" : [ "Coda" ],
+	"Start" : [ "Origin" ],
+	"End" : [ "End" ]
 }
