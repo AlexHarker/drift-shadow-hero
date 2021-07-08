@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 562.0, 245.0, 539.0, 325.0 ],
+		"rect" : [ 152.0, 198.0, 1049.0, 297.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,60 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 810.0, 187.0, 118.0, 22.0 ],
+					"text" : "prepend reverb level"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 810.0, 81.0, 101.0, 22.0 ],
+					"text" : "dict.unpack level:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 831.0, 156.0, 104.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 92.0, 170.0, 107.0, 20.0 ],
+					"text" : "Reverb Level (db)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-20",
+					"maxclass" : "flonum",
+					"maximum" : 0.0,
+					"minimum" : -100.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 810.0, 117.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 170.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -68,9 +122,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 653.0, 156.0, 190.0, 20.0 ],
+					"patching_rect" : [ 653.0, 156.0, 107.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 151.0, 107.0, 20.0 ],
+					"presentation_rect" : [ 92.0, 138.0, 107.0, 20.0 ],
 					"text" : "Lockout Time (ms)"
 				}
 
@@ -88,7 +142,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 632.0, 117.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 151.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 138.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -160,7 +214,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 434.0, 156.0, 190.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 96.0, 214.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 83.0, 214.0, 20.0 ],
 					"text" : "Deviation Tracking Threshold (dB)"
 				}
 
@@ -178,7 +232,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 413.0, 117.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 95.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 82.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -190,7 +244,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 156.0, 214.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 58.5, 214.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 45.5, 214.0, 20.0 ],
 					"text" : "Spectral Change Noise Threshold (dB)"
 				}
 
@@ -208,7 +262,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 178.0, 122.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 57.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 44.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -220,7 +274,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.0, 156.0, 105.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 21.0, 105.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 8.0, 105.0, 20.0 ],
 					"text" : "Novelty Threshold"
 				}
 
@@ -266,11 +320,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 16.0, 47.0, 813.0, 22.0 ],
-					"text" : "route novelty spectral_change deviations tracking"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 16.0, 47.0, 1011.5, 22.0 ],
+					"text" : "route novelty spectral_change deviations tracking reverb"
 				}
 
 			}
@@ -287,7 +341,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 122.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 20.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 7.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -344,6 +398,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 819.5, 215.5, 25.5, 215.5 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -384,6 +460,13 @@
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 621.0, 74.5, 641.5, 74.5 ],
 					"source" : [ "obj-6", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-6", 4 ]
 				}
 
 			}

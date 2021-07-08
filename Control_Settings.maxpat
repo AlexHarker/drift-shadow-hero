@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "Save",
 					"id" : "obj-13",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -87,14 +87,14 @@
 					"id" : "obj-12",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Control_Thresholds.maxpat",
+					"name" : "Control_Various.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 824.333333333333371, 312.5, 296.000000000000114, 134.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 251.0, 306.0, 191.0 ],
+					"presentation_rect" : [ 278.0, 264.0, 306.0, 207.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -194,7 +194,7 @@
 				"box" : 				{
 					"comment" : "Tagged Output",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -206,7 +206,7 @@
 				"box" : 				{
 					"comment" : "Loading",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -347,7 +347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 833.833333333333371, 525.25, 15.5, 525.25 ],
+					"midpoints" : [ 833.833333333333371, 519.75, 15.5, 519.75 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -364,6 +364,14 @@
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 578.5, 297.0, 597.166666666666742, 297.0 ],
 					"source" : [ "obj-14", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 759.833333333333371, 297.75, 833.833333333333371, 297.75 ],
+					"source" : [ "obj-14", 4 ]
 				}
 
 			}
@@ -450,17 +458,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 34.5, 54.75, 833.833333333333371, 54.75 ],
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -481,7 +479,30 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "Control_Loudness_Thresholds.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Classifier.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Various.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

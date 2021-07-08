@@ -46,5 +46,9 @@
 	"tracking" : 	{
 		"lockout" : 0.0
 	}
+,
+	"reverb" : 	{
+		"level" : -20.0
+	}
 
 }
