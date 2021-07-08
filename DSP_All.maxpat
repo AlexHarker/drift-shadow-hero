@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1266.0, 804.0 ],
+		"rect" : [ 380.0, 121.0, 1266.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 284.0, 185.0, 34.0, 22.0 ],
+									"patching_rect" : [ 284.0, 187.0, 34.0, 22.0 ],
 									"text" : "line~"
 								}
 
@@ -116,7 +116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 189.0, 267.0, 29.5, 22.0 ],
-									"text" : "+~"
+									"text" : "-~"
 								}
 
 							}
@@ -127,20 +127,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 231.0, 231.0, 29.5, 22.0 ],
+									"patching_rect" : [ 231.0, 226.0, 29.5, 22.0 ],
 									"text" : "*~"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 189.0, 187.0, 29.5, 22.0 ],
-									"text" : "-~"
 								}
 
 							}
@@ -158,24 +146,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 66.0, 267.0, 29.5, 22.0 ],
-									"text" : "+~"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 66.0, 187.0, 29.5, 22.0 ],
+									"patching_rect" : [ 66.0, 267.0, 29.5, 22.0 ],
 									"text" : "-~"
 								}
 
@@ -187,7 +163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 231.0, 185.0, 29.5, 22.0 ],
+									"patching_rect" : [ 231.0, 187.0, 29.5, 22.0 ],
 									"text" : "-~"
 								}
 
@@ -289,7 +265,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 1 ],
-									"midpoints" : [ 240.5, 259.5, 209.0, 259.5 ],
+									"midpoints" : [ 240.5, 257.0, 209.0, 257.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -305,7 +281,7 @@
 								"patchline" : 								{
 									"color" : [ 0.131344810128212, 0.999677240848541, 0.023624084889889, 1.0 ],
 									"destination" : [ "obj-10", 1 ],
-									"midpoints" : [ 293.5, 218.5, 251.0, 218.5 ],
+									"midpoints" : [ 293.5, 217.0, 251.0, 217.0 ],
 									"order" : 0,
 									"source" : [ "obj-14", 0 ]
 								}
@@ -315,7 +291,7 @@
 								"patchline" : 								{
 									"color" : [ 0.131344810128212, 0.999677240848541, 0.023624084889889, 1.0 ],
 									"destination" : [ "obj-5", 1 ],
-									"midpoints" : [ 293.5, 216.0, 148.0, 216.0 ],
+									"midpoints" : [ 293.5, 217.0, 148.0, 217.0 ],
 									"order" : 1,
 									"source" : [ "obj-14", 0 ]
 								}
@@ -344,29 +320,17 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-11", 0 ],
+									"midpoints" : [ 75.5, 249.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 1 ],
+									"destination" : [ "obj-3", 1 ],
+									"midpoints" : [ 137.5, 257.0, 86.0, 257.0 ],
 									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -390,6 +354,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-89", 0 ],
+									"midpoints" : [ 75.5, 76.5, 111.0, 76.5 ],
 									"order" : 1,
 									"source" : [ "obj-7", 0 ]
 								}
@@ -413,9 +378,9 @@
 , 							{
 								"patchline" : 								{
 									"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-									"destination" : [ "obj-2", 0 ],
-									"midpoints" : [ 394.0, 126.0, 240.5, 126.0 ],
-									"order" : 0,
+									"destination" : [ "obj-12", 0 ],
+									"midpoints" : [ 394.0, 127.0, 198.5, 127.0 ],
+									"order" : 1,
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -423,9 +388,9 @@
 , 							{
 								"patchline" : 								{
 									"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-									"destination" : [ "obj-6", 0 ],
-									"midpoints" : [ 394.0, 127.0, 198.5, 127.0 ],
-									"order" : 1,
+									"destination" : [ "obj-2", 0 ],
+									"midpoints" : [ 394.0, 127.0, 240.5, 127.0 ],
+									"order" : 0,
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -536,7 +501,7 @@
 				"box" : 				{
 					"comment" : "(signal) Output Right",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -548,7 +513,7 @@
 				"box" : 				{
 					"comment" : "(signal) Output Left",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -560,11 +525,11 @@
 				"box" : 				{
 					"comment" : "Load",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1214.0, 18.0, 30.0, 30.0 ]
 				}
 
@@ -1399,182 +1364,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Layers_Remote.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Layers_DSP.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Output_Layer.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Output_Voice.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Amp_Pan.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Pan.gendsp",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Volume.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Generator.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Signal.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Layer_Loader.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers1_origin.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers2_arrival.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers3_clusterone.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers4_clustertwo.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers5_division.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers6_loops.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers7_centre.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers8_blockone.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layers9_blocktwo.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Division_Filter_Sweep.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Triple_SVF.maxpat",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layersX_coda.txt",
-				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dynamicdsp~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "randfloats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "valconvert.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "shaping.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gesture_maker.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
