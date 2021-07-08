@@ -32,7 +32,7 @@
 		"amp_thresh" : -40.0,
 		"output_thresh" : 0.7,
 		"ratio_thresh" : 0.95,
-		"file" : "Projects:/Composition/Oboe Piece/Classifiers/classify_MN_SP1_0662.json"
+		"file" : "stored_data_multiphonic_classifier.json"
 	}
 ,
 	"deviations" : 	{

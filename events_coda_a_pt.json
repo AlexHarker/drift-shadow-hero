@@ -42,6 +42,4 @@
 		"width" : [ "set", 0.8 ],
 		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
 	}
-,
-	"pt1" : [ "noise", "set", 0.45 ]
 }
