@@ -295,12 +295,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 74.0, 377.0, 22.0 ],
-									"text" : "slices on 0, crossfade time 2000., global freq set 1., voice reset, reset"
+									"patching_rect" : [ 52.0, 74.0, 407.0, 35.0 ],
+									"text" : "slices on 0, crossfade time 2000., global freq set 1., voice reset, reset, freq set 1, volume set 1"
 								}
 
 							}

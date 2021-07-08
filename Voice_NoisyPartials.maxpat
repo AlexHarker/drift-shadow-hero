@@ -216,7 +216,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "bang" ],
+					"outlettype" : [ "signal", "signal", "ending" ],
 					"patching_rect" : [ 99.5, 783.5, 397.0, 22.0 ],
 					"text" : "Output_Voice"
 				}
@@ -295,12 +295,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 74.0, 480.0, 22.0 ],
-									"text" : "slices on 0, crossfade time 2000., global freq set 1., global noise set 0., voice reset, reset"
+									"patching_rect" : [ 52.0, 74.0, 511.0, 35.0 ],
+									"text" : "slices on 0, crossfade time 2000., global freq set 1., global noise set 0., voice reset, reset, freq set 1, noise set 0., volume set 1"
 								}
 
 							}
@@ -1179,9 +1180,9 @@
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
