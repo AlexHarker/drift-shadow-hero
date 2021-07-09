@@ -3,7 +3,7 @@
 	"BlockOne" : [ "Centre", "Press", "Extend", "Loops", "Division" ],
 	"BlockTwo" : [ "Centre", "Press", "Extend", "Loops", "Division" ],
 	"Centre" : [ "Extend", "Press", "Loops", "BlockOne", "BlockTwo", "Division" ],
-	"ClusterOne" : [ "Origin", "Ground", "Displace", "Push", "Arrival", "Division" ],
+	"ClusterOne" : [ "Origin", "Ground", "Displace", "Push", "Arrival" ],
 	"ClusterTwo" : [ "Origin", "Ground", "Displace", "Push", "Arrival", "Division" ],
 	"Coda" : [ "End" ],
 	"Displace" : [ "Origin", "Ground", "Push", "ClusterOne", "ClusterTwo", "ToArrival", "Division" ],
