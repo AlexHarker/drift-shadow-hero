@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 152.0, 198.0, 1049.0, 297.0 ],
+		"rect" : [ 121.0, 200.0, 1171.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 990.0, 187.0, 111.0, 22.0 ],
+					"text" : "prepend reverb live"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1010.0, 156.0, 129.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 92.0, 176.0, 129.0, 20.0 ],
+					"text" : "Live Reverb Level (db)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-24",
+					"maxclass" : "flonum",
+					"maximum" : 0.0,
+					"minimum" : -140.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 990.0, 117.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 176.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -55,10 +97,10 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 81.0, 101.0, 22.0 ],
-					"text" : "dict.unpack level:"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 810.0, 81.0, 199.0, 22.0 ],
+					"text" : "dict.unpack level: live:"
 				}
 
 			}
@@ -68,10 +110,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 156.0, 104.0, 20.0 ],
+					"patching_rect" : [ 831.0, 156.0, 137.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 170.0, 107.0, 20.0 ],
-					"text" : "Reverb Level (db)"
+					"presentation_rect" : [ 92.0, 144.0, 137.0, 20.0 ],
+					"text" : "Elecs Reverb Level (db)"
 				}
 
 			}
@@ -81,14 +123,14 @@
 					"id" : "obj-20",
 					"maxclass" : "flonum",
 					"maximum" : 0.0,
-					"minimum" : -100.0,
+					"minimum" : -140.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 810.0, 117.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 170.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 144.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -124,7 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 653.0, 156.0, 107.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 138.0, 107.0, 20.0 ],
+					"presentation_rect" : [ 92.0, 112.0, 107.0, 20.0 ],
 					"text" : "Lockout Time (ms)"
 				}
 
@@ -142,7 +184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 632.0, 117.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 138.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 112.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -214,7 +256,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 434.0, 156.0, 190.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 83.0, 214.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 70.62886597938143, 214.0, 20.0 ],
 					"text" : "Deviation Tracking Threshold (dB)"
 				}
 
@@ -232,7 +274,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 413.0, 117.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 82.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 69.628865979381445, 50.0, 22.0 ]
 				}
 
 			}
@@ -244,7 +286,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 156.0, 214.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 45.5, 214.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 38.314432989690722, 214.0, 20.0 ],
 					"text" : "Spectral Change Noise Threshold (dB)"
 				}
 
@@ -262,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 178.0, 122.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 44.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 24.0, 38.314432989690722, 50.0, 22.0 ]
 				}
 
 			}
@@ -412,9 +454,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 819.5, 215.5, 25.5, 215.5 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 999.5, 215.5, 25.5, 215.5 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
