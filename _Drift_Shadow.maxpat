@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 889.0, 236.487793000000011, 29.5, 22.0 ],
+					"patching_rect" : [ 889.0, 236.487793000000011, 30.0, 22.0 ],
 					"text" : "End"
 				}
 
@@ -234,7 +234,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -530,7 +530,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.325, 0.345, 0.373, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -541,8 +541,8 @@
 					"patching_rect" : [ 80.5, 43.5, 110.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 22.487793000000011, 123.0, 37.0 ],
-					"text" : "Loaded",
-					"textoncolor" : [ 0.439, 0.749, 0.255, 1.0 ]
+					"text" : "Load",
+					"textoncolor" : [ 0.871, 0.416, 0.063, 1.0 ]
 				}
 
 			}
@@ -559,7 +559,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -719,7 +719,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -938,7 +938,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1186,8 +1186,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 251.0, 525.0, 202.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 111.5, 294.0, 55.0 ],
-					"text" : "unknown"
+					"presentation_rect" : [ 195.0, 111.5, 294.0, 55.0 ]
 				}
 
 			}
@@ -1225,8 +1224,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 246.0, 721.5, 448.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 300.5, 353.0, 55.0 ],
-					"text" : "Loops A 2"
+					"presentation_rect" : [ 190.0, 300.5, 353.0, 55.0 ]
 				}
 
 			}
@@ -1240,8 +1238,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 246.0, 624.5, 251.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 203.5, 299.0, 55.0 ],
-					"text" : "M62"
+					"presentation_rect" : [ 190.0, 203.5, 299.0, 55.0 ]
 				}
 
 			}
@@ -1269,7 +1266,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1460,7 +1457,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2390,7 +2387,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2639,7 +2636,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2885,7 +2882,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3398,7 +3395,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 11,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3444,7 +3441,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3552,7 +3549,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3598,7 +3595,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3937,7 +3934,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4945,7 +4942,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5787,7 +5784,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5854,7 +5851,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "bang", "int", "" ],
 																	"patching_rect" : [ 84.0, 320.0, 407.0, 22.0 ],
-																	"text" : "Texture_Manage coda_bm 23 26 0.2 simple"
+																	"text" : "Texture_Manage coda_bm 23 26 0.2 long"
 																}
 
 															}
@@ -6355,7 +6352,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6413,7 +6410,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -7200,7 +7197,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7258,7 +7255,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -8424,7 +8421,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8555,7 +8552,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9334,7 +9331,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10415,7 +10412,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10523,7 +10520,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12075,7 +12072,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12122,7 +12119,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12267,7 +12264,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -13098,7 +13095,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -13922,7 +13919,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14030,7 +14027,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -14595,7 +14592,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -15625,7 +15622,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -15733,7 +15730,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -15779,7 +15776,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 11,
+																							"revision" : 8,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -17274,7 +17271,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -17455,7 +17452,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -18020,7 +18017,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -19229,7 +19226,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -19338,7 +19335,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -20383,7 +20380,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -21066,7 +21063,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -21860,7 +21857,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -23344,7 +23341,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -23452,7 +23449,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -25468,7 +25465,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -25613,7 +25610,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -26976,7 +26973,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -27121,7 +27118,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -28300,7 +28297,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -28566,7 +28563,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -29705,7 +29702,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -31054,7 +31051,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -32411,7 +32408,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 11,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -32544,7 +32541,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -32590,7 +32587,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 11,
+																			"revision" : 8,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -33595,7 +33592,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -34326,7 +34323,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -35091,7 +35088,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -36012,7 +36009,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 11,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -38217,819 +38214,658 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Analysis_RT.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_FFT_Amplitudes.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Classifier.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Classify_PreProcess.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Spectrum_Reduce.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Spectral_HPF.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Pitch_Amp_Deviations.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Spectral_Peaks.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Spectral_Shape.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_LoudGate.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Utility_Gate_Other.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Loudness.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Spectral_Change.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Novelty.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Multiphonic_Tracking.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Utility_Multiple_Match.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Match_Section.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Layers_Proxy.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Choose_Item.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Urn.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_List_Element.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Matching_Samples.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Local_Samples.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Utility_Unique_List.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voice_Texture.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voice_Setup.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voice_Stop.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "end_fades",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Texture_Manage.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Patch_Busy_Map.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voices_End_All.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Change.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Not.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Change_Not.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Last_Item.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_List_Groups.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Groups.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Decide.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Match_Subsection.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Choose_Specify.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_List_Urn.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Choose_Match.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Matching_Samples_Dict.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Patch_Get_Voice.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_List_Change.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Prob.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Ratio.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Urn_Not.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Random_Random.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Control_Settings.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Control_Loudness_Thresholds.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Control_Classifier.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Control_Various.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_All.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_Filename_Parsing.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "File_Name_Reduce.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_Multiphonic_Mapping.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Multiphonic_Dict_Array.js",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_SampleType_Lists.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_From_Disk.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Data_Subsection_Lists.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Load_Samples.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DSP_All.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Layers_Remote.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Layers_DSP.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Patch_Manage.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_Granular.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Granular.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Utility_FL_Range.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Output_Voice.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Amp_Pan.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Pan.gendsp",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Volume.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Generator.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gesture_Signal.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Slices_Granular_Navigation.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Random_Walk.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Utility_Get_Slice.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Random_Slice_Crossfade.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Event_Generator.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_Partials.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Sine_Voice.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Amp_Pan.gendsp",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Partials_Thin.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Slices_Navigation.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Random_List_Walk.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_NoisyPartials.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine_Voice.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Noisy_Sine.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_NControl.gendsp",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Noisy_Sine_XFade.gendsp",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Voice_PhaseVocoder.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DSP_Stereo_Stochastic_PhaseVoc.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Output_Layer.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Output_Voice.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DSP_Stereo_Amp_Pan.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DSP_Pan.gendsp",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gesture_Volume.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gesture_Generator.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gesture_Signal.maxpat",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Layer_Loader.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers1_origin.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers2_arrival.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers3_clusterone.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers4_clustertwo.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers5_division.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers6_loops.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers7_centre.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers8_blockone.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layers9_blocktwo.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DSP_Division_Filter_Sweep.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DSP_Triple_SVF.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layersX_coda.txt",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DSP_Reverb.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Validation.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Section_Change.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_To_Tag.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Utility_Lockout.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Check_Disallowed.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Structure_Ignore_Position.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Event_Density.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Analysis_Event_Count.maxpat",
-				"bootpath" : "/Volumes/trucs/-archiver/flucoma/gig/Alex_Harker/Final_Patches",
+				"bootpath" : "/Volumes/Projects/Composition/Oboe Piece/Final_Patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -39215,70 +39051,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "dynamic.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.svf~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.read~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.plus~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.cos~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.sin~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.recursive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.recursive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.sink~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.sink~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.route~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.tag~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.select~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.random~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.nexttime~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.chop~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "valconvert.mxo",
 				"type" : "iLaX"
 			}
@@ -39288,62 +39060,6 @@
 			}
 , 			{
 				"name" : "gesture_maker.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamic.this~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.store~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.recall~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.prioritise~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.gaussian~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.unpack~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.timer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.clip~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.min~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.ifft~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.lookup~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.uniform~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.audiotrigger~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fl.audiotrigger~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
