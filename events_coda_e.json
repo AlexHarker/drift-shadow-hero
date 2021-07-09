@@ -11,7 +11,7 @@
 	}
 ,
 	"voice" : 	{
-		"volume" : [ "set", 1.0 ],
+		"volume" : [ "set", "random", "amp" , -15, -10 ],
 		"width" : [ "set", 0.8 ],
 		"pan" : [ "set", "random", "scale", 0.2, 0.8 ]
 	}

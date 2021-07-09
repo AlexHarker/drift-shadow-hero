@@ -10,7 +10,7 @@
 	}
 ,
 	"voice" : 	{
-		"volume" : [ "set", 1.0 ],
+		"volume" : [ "set", "random", "amp" , 2, 7 ],
 		"pan" : [ "set", "random", "scale", 0.2, 0.8 ],
 		"width" : [ "set", 2.0 ]
 	}
