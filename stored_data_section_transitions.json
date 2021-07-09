@@ -1,5 +1,5 @@
 {
-	"Arrival" : [ "Origin", "ClusterOne", "ClusterTwo" ],
+	"Arrival" : [ "Origin", "ClusterOne", "ClusterTwo", "Division"  ],
 	"BlockOne" : [ "Centre", "Press", "Extend", "Loops", "Division" ],
 	"BlockTwo" : [ "Centre", "Press", "Extend", "Loops", "Division" ],
 	"Centre" : [ "Extend", "Press", "Loops", "BlockOne", "BlockTwo", "Division" ],

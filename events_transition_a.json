@@ -7,7 +7,7 @@
 	}
 ,
 	"freq" : [ "set", 1 ],
-	"volume" : [ "set", "random", "amp", -3, 0 ],
+	"volume" : [ "set", "random", "amp", 3, 7 ],
 	"pan" : [ "set", "random", "scale", 0.2, 0.8 ],
 	"slices" : 	{
 		"on" : 1,
