@@ -12,7 +12,7 @@
 	"Ground" : [ "Origin", "Displace", "ClusterOne", "ClusterTwo", "Division" ],
 	"Loops" : [ "Centre", "BlockOne", "BlockTwo", "Division" ],
 	"Origin" : [ "Displace", "Ground", "Push", "ClusterOne", "ClusterTwo", "Division" ],
-	"Press" : [ "Centre", "Loops", "BlockOne", "BlockTwo", "Division" ],
+	"Press" : [ "Centre", "Loops", "BlockTwo", "Division" ],
 	"Push" : [ "Origin", "Displace", "ClusterOne", "ClusterTwo", "Division" ],
 	"ToArrival" : [ "Arrival" ],
 	"Transition" : [ "Coda" ],

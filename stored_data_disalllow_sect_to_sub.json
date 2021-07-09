@@ -1,3 +1,5 @@
 {
-    "Centre" : ["Loops_Ethereal"]
+    "Centre" : ["Loops_Ethereal"],
+    "Transition" : ["Coda_B", "Coda_C", "Coda_D", "Coda_E"],
+    "Press" : ["BlockTwo_B"]
 }
