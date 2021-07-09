@@ -1,5 +1,5 @@
 {
-	"thin" : "off",
+	"thin" : [ "freq_threshold", 200, 1 ],
 	"frames" : 0,
 	"crossfade" : [ "random", 0.1, 0.9 ],
 	"global" : 	{
