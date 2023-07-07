@@ -1,3 +1,0 @@
-1, 4 gn1 Voice_Granular;
-2, 4 gn2 Voice_Granular;
-3, 4 gn3 Voice_Granular;
