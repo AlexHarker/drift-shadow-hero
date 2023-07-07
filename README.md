@@ -3,7 +3,7 @@ A repo for testing multiphonic detection for the piece drift shadow
 
 To install:
 ---------------------------------
-- Make sure you have a copy of Max from [cycling](https://cycling74.com)
+- Make sure you have a copy of Max from [cycling 74](https://cycling74.com)
 - Download this repo
 - Download the relevant packages from the [releases page](https://github.com/AlexHarker/drift-shadow-hero/releases) and install into the Packages folder for Max
 
