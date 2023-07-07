@@ -1,0 +1,67 @@
+name: external-collation
+on:
+  push:
+    # Pattern matched against refs/tags
+    tags:        
+      - 'externals*'
+jobs:
+  collate-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: AHarker Externals
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "AlexHarker/AHarker_Externals"
+          fileName: "AHarker_Externals.zip"
+          tag: "latest-2022-11-21"
+          out-file-path: "Packages"
+          extract: true
+      - name: FluCoMa
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "AlexHarker/flucoma-max"
+          fileName: "FluCoMa-Max-1.0.6.zip"
+          tag: "1.0.6"
+          out-file-path: "Packages"
+          extract: true
+      - name: FrameLib
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "AlexHarker/FrameLib"
+          fileName: "FrameLib_Max_Package.zip"
+          tag: "framelib-latest-develop-2023-07-07"
+          out-file-path: "Packages"
+          extract: true
+      - name: HIRT
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "HISSTools/HISSTools_Impulse_Response_Toolbox"
+          fileName: "HISSTools_Impulse_Response_Toolbox.zip"
+          tag: "v2.1.1"
+          out-file-path: "Packages"
+          extract: true
+      - name: Max Experimental
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "AlexHarker/Max_Experimental"
+          fileName: "MaxExperimental.zip"
+          tag: "v0.0.1"
+          out-file-path: "Packages"
+          token: ${{ secrets.MAX_EXP_TOKEN }}
+          extract: true
+      - name: Make zip
+        run:  |
+              rm Packages/*.zip
+              zip -r Packages.zip "Packages/"
+      - name: Make release
+        uses: "softprops/action-gh-release@v1"
+        with:
+          files: Packages.zip
+          fail_on_unmatched_files: true
+          target_commitish: ${{ github.sha }}
+          body: |
+                This is a collated set of external dependencies for Drift Shadow.
+                These may be different from publicly available versions of these externals.
+                Download the zip below and install the contents to your Packages folder.
+          
+      

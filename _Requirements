@@ -1,5 +1,6 @@
 Requires:
 
+HIRT
 FrameLib (experimental build)
 FluCoMa (with experimental build of libmanipulation.mxo)
 AHarker Externals
