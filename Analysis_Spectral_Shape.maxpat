@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "Control",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -67,7 +67,7 @@
 				"box" : 				{
 					"comment" : "Control",
 					"id" : "obj-5",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -80,7 +80,7 @@
 				"box" : 				{
 					"comment" : "Tagged Analysis",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -92,11 +92,11 @@
 				"box" : 				{
 					"comment" : "(signal) In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.333373999999999, 31.0, 30.0, 30.0 ]
 				}
 
@@ -168,9 +168,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 37.333373999999999, 74.0, 506.0, 23.0 ],
-					"text" : "fluid.spectralshape~ 1024 @fftsettings 1024 @minfreq 100 @rolloffpercent 50 @unit 1"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 37.333373999999999, 74.0, 473.0, 23.0 ],
+					"text" : "fluid.spectralshape~ @fftsettings 1024 @minfreq 100 @rolloffpercent 50 @unit 1"
 				}
 
 			}
@@ -323,7 +323,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
-					"midpoints" : [ 535.166707333333306, 134.75, 609.333374000000049, 134.75 ],
+					"midpoints" : [ 535.166707333333306, 138.75, 609.333374000000049, 138.75 ],
 					"source" : [ "obj-6", 5 ]
 				}
 
@@ -336,12 +336,13 @@
 
 			}
  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
+					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -359,17 +360,17 @@
 , 			{
 				"name" : "max6message",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 						"color2" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
-
+,
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "max6box",
