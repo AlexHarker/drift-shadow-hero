@@ -1,6 +1,10 @@
 # drift-shadow-hero
 A repo for testing multiphonic detection for the piece drift shadow
 
+For reference:
+---------------------------------
+- Scores are included at ./- scores/
+  
 To install:
 ---------------------------------
 - Make sure you have a copy of Max from [cycling 74](https://cycling74.com)
