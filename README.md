@@ -10,7 +10,7 @@ To install:
 To run:
 ---------------------------------
 - Open _Drift_Shadow_Hero.maxpat
-- Check your soundcard settings
+- Check your soundcard settings (you **must** be set to 44.1kHz or the detection will not work)
 - Click the "Detect Off" button (so that it displays "Detect On")
 - If you wish to navigate the piece without electronics (not just try the basic detection) press "Start"
 - You can use the other controls to jump around in the piece
