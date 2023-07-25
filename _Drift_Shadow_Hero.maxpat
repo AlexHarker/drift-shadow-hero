@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 103.0, 87.0, 585.0, 630.0 ],
+		"rect" : [ 103.0, 87.0, 1274.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -219,7 +219,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -544,7 +544,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -704,7 +704,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -923,7 +923,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1173,7 +1173,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 251.0, 525.0, 202.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 111.5, 294.0, 55.0 ]
+					"presentation_rect" : [ 195.0, 111.5, 294.0, 55.0 ],
+					"text" : "unknown"
 				}
 
 			}
@@ -1225,7 +1226,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 246.0, 624.5, 251.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 203.5, 299.0, 55.0 ]
+					"presentation_rect" : [ 190.0, 203.5, 299.0, 55.0 ],
+					"text" : "M26"
 				}
 
 			}
@@ -1253,7 +1255,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1485,7 +1487,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1712,7 +1714,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2244,10 +2246,10 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 286.0, 191.0, 35.0, 22.0 ],
-					"text" : "adc~"
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 286.0, 191.0, 44.0, 22.0 ],
+					"text" : "noise~"
 				}
 
 			}
@@ -2630,6 +2632,405 @@
 					"source" : [ "obj-8", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "Analysis_Classifier.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Classify_PreProcess.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_FFT_Amplitudes.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_LoudGate.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Loudness.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Novelty.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Pitch_Amp_Deviations.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_RT.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Spectral_Change.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Spectral_HPF.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Spectral_Peaks.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Spectral_Shape.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Analysis_Spectrum_Reduce.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Classifier.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Loudness_Thresholds.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Settings.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Control_Various.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_All_Hero.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_Filename_Parsing_Hero.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_From_Disk.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_Multiphonic_Mapping.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_SampleType_Lists.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Data_Subsection_Lists.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "File_Name_Reduce.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Multiphonic_Dict_Array.js",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_Check_Disallowed.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_Ignore_Position.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_Multiphonic_Tracking.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_Section_Change.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_To_Tag.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Structure_Validation.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Utility_Gate_Other.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Utility_Lockout.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Utility_Multiple_Match.maxpat",
+				"bootpath" : "~/lol/drift-shadow-hero",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fl.contextcontrol~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.divide~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.expr~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.fft~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.framemax~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.frommax~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.greaterthan~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.hypot~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.interval~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.lag~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.length~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.log2~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.map~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.max~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.medianfilter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.minus~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.nanfilter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.once~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.pack~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.peaks~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.pow~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.ramp~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.register~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.samplerate~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.sortmultiple~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.source~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.subframe~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.sum~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.timemean~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.times~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.tomax~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fl.window~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.loudness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.mlpclassifier~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.noveltyslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.spectralshape~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tracker.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "unsynced.fl.interval~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "unsynced.fl.once~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "unsynced.fl.source~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,

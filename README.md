@@ -1,4 +1,4 @@
-# drift-shadow-hero
+# niamh-hero
 A repo for testing multiphonic detection for the piece drift shadow
 
 For reference:
